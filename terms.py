@@ -8,6 +8,7 @@ def partitions(a, n, k):
                 partitions(a+[i], n-i, i)
     else:
         print( a, end=' , ')
-print('partitions(',n,')=')       
+print('partitions(',n,')=')    
+   
 # Выводим результат по примеру
 partitions([], n, n)
