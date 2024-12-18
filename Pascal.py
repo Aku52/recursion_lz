@@ -15,7 +15,7 @@ def pascals_triangle_rows(rows):
         for colon in range( i + 1):
             result =result + str(com(i, colon)) + "\t"
         print(result)
-        
+
 print('pascals_triangle_rows(',a,')=')
 pascals_triangle_rows(a)
 # Количество строк/столбцов 
